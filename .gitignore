@@ -1,0 +1,59 @@
+# OS/editor noise
+.DS_Store
+*.swp
+*.swo
+
+# Local envs and generic build outputs
+.env
+.env.*
+.venv/
+venv/
+node_modules/
+dist/
+build/
+coverage/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Codex local state and secrets
+.codex-global-state.json
+.personality_migration
+auth.json
+installation_id
+
+# Temp and caches
+.tmp/
+tmp/
+cache/
+models_cache.json
+ambient-suggestions/
+plugins/cache/
+
+# Logs and runtime databases
+log/
+*.log
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+sqlite/
+
+# Session and shell history
+history.jsonl
+session_index.jsonl
+sessions/
+archived_sessions/
+shell_snapshots/
+memories/
+
+# Local workspaces and imported cache data
+worktrees/
+vendor_imports/skills-curated-cache.json
+
+rules/
+.system/
+version.json
+vendor_imports/
+codex-primary-runtime/

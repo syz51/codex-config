@@ -1,0 +1,4 @@
+interface:
+  display_name: "e2e"
+  short_description: "Please take your time, and finish all tasks end to end, run tests after each milestone, stop only on blockers."
+  default_prompt: "Please take your time, and finish all tasks end to end, run tests after each milestone, stop only on blockers."

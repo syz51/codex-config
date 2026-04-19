@@ -1,0 +1,4 @@
+interface:
+  display_name: "Memory System Investigation"
+  short_description: "Investigate KB workflow regressions"
+  default_prompt: "Use $memory-system-investigation to investigate a memory-system workflow regression, audit artifacts across the pipeline, identify root causes, apply fixes, and verify with replay and tests."
