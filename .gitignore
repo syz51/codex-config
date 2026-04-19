@@ -23,6 +23,7 @@ __pycache__/
 .personality_migration
 auth.json
 installation_id
+config.toml
 
 # Temp and caches
 .tmp/
