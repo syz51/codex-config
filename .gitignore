@@ -58,3 +58,5 @@ rules/
 version.json
 vendor_imports/
 codex-primary-runtime/
+
+*.bak

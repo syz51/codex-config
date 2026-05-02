@@ -1,0 +1,4 @@
+interface:
+  display_name: "End-to-end iterative research"
+  short_description: "Milestone tests, fixes, and research loop"
+  default_prompt: "Use $end-to-end-iterative-research: Do this end to end, and add tests after each milestone. Take your time, and keep iterating until no further next steps could be done without me deciding on things. Fix any issues found along the way. Do more researches if needed, for how things are done in industry practices and research literature."

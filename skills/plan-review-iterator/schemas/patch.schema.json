@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["summary", "markdown_response", "resolved_findings", "rejected_findings", "touched_files", "unresolved_questions"],
+  "properties": {
+    "summary": { "type": "string" },
+    "markdown_response": { "type": "string" },
+    "resolved_findings": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "rejected_findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "rationale"],
+        "properties": {
+          "id": { "type": "string" },
+          "rationale": { "type": "string" }
+        }
+      }
+    },
+    "touched_files": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "unresolved_questions": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

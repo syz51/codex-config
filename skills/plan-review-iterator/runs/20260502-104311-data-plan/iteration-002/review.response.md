@@ -1,0 +1,3 @@
+I had already returned the formal JSON review before the second subagent finished. Its findings are consistent with the review I sent: production still shells out and hardcodes `20260424`, ML label cutoff/gate work needs explicit implementation, direct data-writing CLIs remain public/default-driven, resolver/freshness/checkpoint support is mostly absent, and tests/docs need migration coverage.
+
+No changes were made. The earlier JSON remains the review artifact; the late subagent output does not materially change the conclusions.

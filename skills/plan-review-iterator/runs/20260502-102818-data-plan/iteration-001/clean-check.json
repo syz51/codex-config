@@ -1,0 +1,5 @@
+{
+  "has_findings": true,
+  "actionable_count": 6,
+  "reason": "All six latest review findings still have actionable gaps: execution-ready builder remains unrestricted despite being a builder; generated label/path handling is still only dry-run scoped without a single RefreshContext or manifest/hash assertions; trading-day resolution semantics remain under-specified and still show a closed-date example; official industry manifest orchestration/deprecation is still omitted; --skip-baostock still lacks the required reuse/fail/freshness contract; and the test plan still misses explicit internal-orchestrator, generated-input, deprecated-script-avoidance, and detailed output-status schema checks."
+}

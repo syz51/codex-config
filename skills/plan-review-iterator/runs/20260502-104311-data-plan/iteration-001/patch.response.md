@@ -1,0 +1,5 @@
+Patched only `/Users/roy/Downloads/data-plan.md`.
+
+Formal review after the patch: all six findings are resolved. The plan now has an explicit per-family mode matrix, daily defaults no longer imply a full non-L2 rebuild, execution-ready success is separated from skipped ML-ready via `training_context_ml_ready_dir`, ML training artifacts have a hard cutoff plus prediction-only artifact separation, legacy `--refresh-monthly` and `--refresh-raw-store` are preserved as transition aliases, date resolution cross-checks SSE with Tushare `trade_cal` and consumed endpoint freshness, and integration tests now use AST/module-boundary assertions instead of a brittle deprecated-name grep.
+
+Validation: re-read the full plan, ran targeted `rg` checks for the required concepts and old-risk wording, and checked repo status. The repo has pre-existing unrelated changes under `/Users/roy/Documents/quant`; I did not edit them. No code tests were run because this task only changed the markdown plan.
