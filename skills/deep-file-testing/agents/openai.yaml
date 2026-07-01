@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deep File Testing"
+  short_description: "Deep file-by-file test workflow"
+  default_prompt: "Use $deep-file-testing to inspect the codebase file by file, add valuable tests, verify, and commit."
