@@ -60,3 +60,12 @@ vendor_imports/
 codex-primary-runtime/
 
 *.bak
+/.app-server-state-reconciled-v1
+/attachments
+/chrome-native-hosts-v2.json
+/computer-use
+/generated_images/019ebe5b-478e-73b3-b7c9-e73f4dd11ca6
+/node_repl/active_execs
+/plugins
+/process_manager
+/transcription-history.jsonl

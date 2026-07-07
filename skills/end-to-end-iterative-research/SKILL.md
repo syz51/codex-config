@@ -14,7 +14,8 @@ Do this end to end, and add tests after each milestone. Take your time, finish i
 3. Execute one milestone at a time and add or update tests immediately after each milestone.
 4. Run the lightest meaningful verification after each milestone before continuing.
 5. Fix issues discovered during implementation, testing, linting, typing, review, or runtime checks before moving on.
-6. Research industry practice or research literature when local context is insufficient or the decision has material quality, correctness, architecture, or scientific risk.
+6. Research industry practice or research literature when needed.
 7. Do not stop after a plan, partial implementation, first working pass, or first successful verification if implementable milestones remain.
 8. Keep iterating until no further concrete next step can be executed without user input or a real blocker.
 9. Finish with all planned milestones implemented and verified, issues fixed, and unresolved decisions or blockers if any.
+10. After everything has been done and verified, commit the changes.

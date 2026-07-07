@@ -24,7 +24,7 @@ Use this skill when the goal is to explain what is happening and why, not to jum
 
 ## Investigation Contract
 
-Always preserve these sections in your reasoning and answer:
+Always use these checks while investigating. Include them in the final answer only when the user asks for a full investigation report or the missing evidence materially changes the conclusion:
 
 1. Observation
 2. Ranked hypotheses
@@ -45,13 +45,13 @@ Always preserve these sections in your reasoning and answer:
 
 ## Delegation Guidance
 
-- Use `explorer` for bounded repository mapping and lookup.
-- Use `worker` only for isolated reproduction or measurement tasks that do not overlap with your main analysis.
+- Use `explorer` for bounded repository mapping and lookup when subagents are explicitly allowed.
+- Use `worker` only for isolated reproduction or measurement tasks that do not overlap with your main analysis, and only when subagents are explicitly allowed.
 - Keep synthesis and ranking in the main thread.
 
 ## Output Shape
 
-Return:
+By default, return:
 
 - observed result
 - ranked hypotheses with confidence
