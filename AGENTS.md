@@ -4,6 +4,10 @@ Always use a pool of sub agents for all the tasks that could be safely delegated
 At the end of each plan, give me a list of unresolved questions to answer, if any. Make the questions extremely concise. Sacrifice grammar for the sake of concision.
 Use uv for python, and use bun for node.
 Apply these defaults unless a higher-priority system/developer/user instruction or a closer `AGENTS.md` overrides them.
+When making technical decisions, do not give much weight to development cost. Instead, prefer quality, simplicity, robustness, scalability, and long term maintainability.
+When making bug fixes, always start with reproducing the bug in an end to end setting, as closely aligned with how an end user would experience it as possible. This makes sure you find the real problem and your fix will actually solve it.
+When end to end test a UI and frontend project, be picky about the UI you see and be obsessed with pixel perfection. If something clearly looks off, even if it is not directly related to what you are doing, try to fix it along the way.
+Apply the same high standards to engineering excellence: lint, test failures, and test flakiness. If you see one, even if it is not caused by what you are working on right now, get if fixed anyway.
 
 ## Guidance Schema
 

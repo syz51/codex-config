@@ -1,5 +1,0 @@
-{
-  "has_findings": true,
-  "actionable_count": 2,
-  "reason": "Findings remain for the execution-ready/ML-ready contract and label artifact boundary. The plan still does not explicitly remove or rename the execution-ready builder's ML-ready dependency, nor require recording a separate last-known gated training context when current ML is skipped. It also says incomplete labels are prediction-only or excluded, but does not explicitly require a hard cutoff before writing features/labels/splits plus a gate assertion that max training signal_date <= ml_training_label_end and separate prediction-only artifact boundaries."
-}
