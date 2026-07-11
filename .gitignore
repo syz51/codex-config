@@ -69,3 +69,4 @@ codex-primary-runtime/
 /plugins
 /process_manager
 /transcription-history.jsonl
+/mcp-oauth-locks/file-store.lock
